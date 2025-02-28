@@ -1,0 +1,16 @@
+#To set vncserver
+
+1) Install tigervnc package
+2)create a file called 'config' in (/home/8amiul/.config/tigervnc)
+config
+```
+session=xfce
+localhost
+alwaysshared
+```
+sessions can be found in /usr/share/xsessions
+3) set a password using vncpasswd
+4) start vnc using
+```
+vncserver :1
+```
